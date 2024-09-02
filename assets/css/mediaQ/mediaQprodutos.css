@@ -8,7 +8,7 @@
 
 @media (min-width: 768px) {
     .square {
-        height: 200px; /* Aumenta a altura dos quadrados em telas maiores */
+        height: 300px; /* Aumenta a altura dos quadrados em telas maiores */
     }
     .product-row {
         margin-bottom: 50px; /* Distância maior entre as linhas em telas maiores */
@@ -17,6 +17,6 @@
 
 @media (min-width: 992px) {
     .square {
-        height: 250px; /* Aumenta ainda mais a altura dos quadrados em telas grandes */
+        height: 350px; /* Aumenta ainda mais a altura dos quadrados em telas grandes */
     }
 }

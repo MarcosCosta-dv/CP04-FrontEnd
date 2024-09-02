@@ -44,6 +44,24 @@ h2 {
     margin: 0 auto;
 }
 
+.square {
+    border: 1px solid #000; /* Adiciona uma borda preta para visibilidade */
+    background-color: transparent; /* Fundo invisível */
+    width: 100%; /* Define a largura do quadrado para ser igual à largura da coluna */
+    margin: auto; /* Centraliza o quadrado dentro da coluna */
+    margin-top: 20px;
+    display: grid; /* Usa grid para centralizar o conteúdo */
+    place-items: center; /* Centraliza o texto horizontal e verticalmente */
+    text-align: center; /* Centraliza o texto dentro do quadrado */
+    border-radius: 15px;
+    transition: transform 0.6s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.square:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do quadrado em 10% */
+}
+
+
 @media (max-width: 768px) {
     .product-card {
         margin-bottom: 20px;
