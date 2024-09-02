@@ -1,0 +1,22 @@
+
+/* Estilos para telas pequenas e médias */
+@media (min-width: 576px) {
+    .product-row {
+        margin-bottom: 40px; /* Distância maior entre as linhas em telas médias */
+    }
+}
+
+@media (min-width: 768px) {
+    .square {
+        height: 200px; /* Aumenta a altura dos quadrados em telas maiores */
+    }
+    .product-row {
+        margin-bottom: 50px; /* Distância maior entre as linhas em telas maiores */
+    }
+}
+
+@media (min-width: 992px) {
+    .square {
+        height: 250px; /* Aumenta ainda mais a altura dos quadrados em telas grandes */
+    }
+}

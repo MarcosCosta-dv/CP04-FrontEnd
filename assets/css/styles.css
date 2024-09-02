@@ -1,0 +1,43 @@
+.navbar-custom {
+    background-color: #333;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #fff;
+}
+.navbar-custom .nav-link:hover {
+    color: #027333;
+}
+
+/*.container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+    grid-template-areas:
+        "nav nav nav"
+        "header header header"
+        "main main aside"
+        "footer footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: red;
+}
+nav {
+    grid-area: nav;
+    background-color: violet;
+}
+main {
+    grid-area: main;
+    background-color: green;
+}
+aside {
+    grid-area: aside;
+    background-color: yellow;
+}
+footer {
+    grid-area: footer;
+    background-color: lightgray;
+}*/
