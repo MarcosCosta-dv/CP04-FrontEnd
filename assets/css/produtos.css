@@ -45,22 +45,85 @@ h2 {
 }
 
 .square {
-    border: 1px solid #000; /* Adiciona uma borda preta para visibilidade */
-    background-color: transparent; /* Fundo invisível */
-    width: 100%; /* Define a largura do quadrado para ser igual à largura da coluna */
-    margin: auto; /* Centraliza o quadrado dentro da coluna */
+    border: 1px solid #000;
+    background-color: transparent;
+    width: 100%;
+    margin: auto;
     margin-top: 20px;
-    display: grid; /* Usa grid para centralizar o conteúdo */
-    place-items: center; /* Centraliza o texto horizontal e verticalmente */
-    text-align: center; /* Centraliza o texto dentro do quadrado */
+    display: grid;
+    place-items: center;
+    text-align: center;
     border-radius: 15px;
     transition: transform 0.6s cubic-bezier(0.42, 0, 0.58, 1);
+    overflow: hidden;
+    position: relative;
 }
 
 .square:hover {
-    transform: scale(1.1); /* Aumenta o tamanho do quadrado em 10% */
+    transform: scale(1.1);
 }
 
+.square img {
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.5s ease;
+    border-radius: 15px;
+    margin-bottom: 15%;
+    position: absolute;
+    transform: scale(1.1);
+}
+
+.square:hover img {
+    transform: scale(1.05);
+    top: -35px;
+}
+
+.img-primaria {
+    z-index: 1;
+    opacity: 1;
+    top: 8px;
+    width: 120%;
+    height: 160%;
+}
+
+.img-secundaria {
+    z-index: 0;
+    opacity: 0;
+    top: 15px;
+    width: 120%;
+    height: 160%;
+}
+
+.ecobag-primaria {
+    z-index: 1; /* Altere o z-index para 1, para garantir que a imagem primária esteja visível no estado normal */
+    opacity: 1;
+    width: 110%;
+    height: 120%;
+}
+
+.ecobag-secundaria {
+    z-index: 0;
+    opacity: 0;
+    width: 110%;
+    height: 120%;
+}
+
+
+.square:hover .img-primaria {
+    opacity: 0;
+}
+
+.square:hover .img-secundaria {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.square:hover .ecobag-primaria {
+    opacity: 0; /* Torna a imagem primária invisível no hover */
+}
+
+.square:hover .ecobag-secundaria {
+    opacity: 1; /* Torna a imagem secundária visível no hover */
+}
 
 @media (max-width: 768px) {
     .product-card {
