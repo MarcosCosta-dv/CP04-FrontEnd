@@ -107,6 +107,19 @@ h2 {
     height: 120%;
 }
 
+.tenis-primario {
+    z-index: 1;
+    opacity: 1;
+    width: 80%;
+    height: 70%;
+}
+
+.tenis-secundario {
+    z-index: 0;
+    opacity: 0;
+    width: 90%;
+    height: 120%;
+}
 
 .square:hover .img-primaria {
     opacity: 0;
@@ -123,6 +136,14 @@ h2 {
 
 .square:hover .ecobag-secundaria {
     opacity: 1; /* Torna a imagem secundária visível no hover */
+}
+
+.square:hover .tenis-primario {
+    opacity: 0;
+}
+
+.square:hover .tenis-secundario {
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
