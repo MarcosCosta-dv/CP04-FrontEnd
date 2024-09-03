@@ -177,3 +177,9 @@ h2 {
         margin-bottom: 20px;
     }
 }
+.site-footer {
+    background-color: #025939;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
