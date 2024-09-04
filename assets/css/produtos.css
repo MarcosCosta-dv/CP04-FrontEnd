@@ -245,6 +245,20 @@ h2 {
     height: 120%;
 }
 
+.copostanley1{
+    z-index: 1;
+    opacity: 1;
+    width: 100%;
+    height: 105%;
+}
+
+.copostanley2{
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 110%;
+}
+
 .square:hover .img-primaria {
     opacity: 0;
 }
@@ -338,6 +352,14 @@ h2 {
 .square:hover .cortinatermica2{
     opacity: 1;
     top: 10px;
+}
+
+.square:hover .copostanley1{
+    opacity: 0;
+}
+
+.square:hover .copostanley2{
+    opacity: 1;
 }
 
 @media (max-width: 768px) {
