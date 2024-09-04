@@ -202,6 +202,49 @@ h2 {
     top: 10px;
 }
 
+.purificador1{
+    z-index: 1;
+    opacity: 1;
+    width: 110%;
+    height: 120%;
+}
+
+.purificador2{
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 110%;
+}
+
+.lavalouca1{
+    z-index: 1;
+    opacity: 1;
+    width: 100%;
+    height: 120%;
+}
+
+.lavalouca2{
+    z-index: 0;
+    opacity: 0;
+    width: 110%;
+    height: 110%;
+}
+
+.cortinatermica1{
+    z-index: 1;
+    opacity: 1;
+    width: 95%;
+    height: 93%;
+    top: 15px;
+}
+
+.cortinatermica2 {
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 120%;
+}
+
 .square:hover .img-primaria {
     opacity: 0;
 }
@@ -268,6 +311,31 @@ h2 {
 }
 
 .square:hover .balsamo2{
+    opacity: 1;
+    top: 10px;
+}
+
+.square:hover .purificador1{
+    opacity: 0;
+}
+
+.square:hover .purificador2{
+    opacity: 1;
+}
+
+.square:hover .lavalouca1{
+    opacity: 0;
+}
+
+.square:hover .lavalouca2{
+    opacity: 1;
+}
+
+.square:hover .cortinatermica1{
+    opacity: 0;
+}
+
+.square:hover .cortinatermica2{
     opacity: 1;
     top: 10px;
 }
