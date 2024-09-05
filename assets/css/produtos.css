@@ -219,6 +219,63 @@ h2 {
     height: 110%;
 }
 
+.carregadorsol1{
+    z-index: 1;
+    opacity: 1;
+    width: 100%;
+    height: 105%;
+}
+
+.carregadorsol2{
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 110%;
+}
+
+.foneouvido1{
+    z-index: 1;
+    opacity: 1;
+    width: 90%;
+    height: 105%;
+}
+
+.foneouvido2{
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 110%;
+}
+
+.lampadaled1{
+    z-index: 1;
+    opacity: 1;
+    width: 90%;
+    height: 105%;
+}
+
+.lampadaled2{
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 110%;
+}
+
+.caixasom1{
+    z-index: 1;
+    opacity: 1;
+    width: 90%;
+    height: 105%;
+}
+
+.caixasom2{
+    z-index: 0;
+    opacity: 0;
+    width: 100%;
+    height: 110%;
+}
+
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -379,6 +436,39 @@ h2 {
 .square:hover .copostanley2{
     opacity: 1;
 }
+
+.square:hover .carregadorsol1{
+    opacity: 0;
+}
+
+.square:hover .carregadorsol2{
+    opacity: 1;
+}
+
+.square:hover .foneouvido1{
+    opacity: 0;
+}
+
+.square:hover .foneouvido2{
+    opacity: 1;
+}
+
+.square:hover .lampadaled1{
+    opacity: 0;
+}
+
+.square:hover .lampadaled2{
+    opacity: 1;
+}
+
+.square:hover .caixasom1{
+    opacity: 0;
+}
+
+.square:hover .caixasom2{
+    opacity: 1;
+}
+
 
 button {
     padding: 10px 15px;
