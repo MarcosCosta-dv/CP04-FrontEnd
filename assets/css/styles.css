@@ -30,7 +30,7 @@ body {
 }
 
 .navbar-logo img {
-  height: 150px; /* Ajuste o tamanho da logo aqui */
+  height: 150px;
   width: auto;
 }
 
@@ -78,8 +78,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  padding-top: 60px;
+  /*height: 100vh; altera a altura entre a header o resto da main */
+  padding-top: 0.5%;
 }
 
 .header__title {
@@ -99,8 +99,18 @@ body {
   font-size: 2rem;
 }
 
+
+
+.carousel-control-next:hover{
+  background-color: transparent;
+}
+
+.carousel-control-prev:hover{
+  background-color: transparent;
+}
+
 .custom-carousel { /* CÓDIGO DO BOOTSTRAP */
-  margin-top: 4%;
+  margin-top: 5%;
   max-width: 100%;  
   width: 80%;
   height: 800%;    
@@ -203,4 +213,514 @@ footer{
 
 .social-icons li a:hover img {
   filter: none;
+}
+
+
+/* CSS - PRODUTOS */
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.category-section {
+  margin-bottom: 40px;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  color: #660128;
+}
+
+.product-card p {
+  color: #555;
+  font-size: 14px;
+}
+
+.ecobag-primaria {
+  z-index: 1; 
+  opacity: 1;
+  width: 110%;
+  height: 120%;
+}
+
+.ecobag-secundaria {
+  z-index: 0;
+  opacity: 0;
+  width: 110%;
+  height: 120%;
+}
+
+.tenis-primario {
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  height: 105%;
+  top: 10px;
+}
+
+.tenis-secundario {
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 120%;
+}
+
+.calca_primaria {
+  z-index: 1;
+  opacity: 1;
+  width: 98%;
+  height: 100%;
+  top: 2px;
+}
+
+.calca_secundaria {
+  z-index: 0;
+  opacity: 0;
+  width: 98%;
+  height: 110%;
+  top: -5px;
+}
+
+.shampoosolido1 {
+  z-index: 1;
+  opacity: 1;
+  width: 93%;
+  height: 100%;
+  top: 2px;
+}
+
+.shampoosolido2 {
+  z-index: 0;
+  opacity: 0;
+  width: 97%;
+  height: 110%;
+  top: -5px;
+}
+
+.saboneteveg1 {
+  z-index: 1;
+  opacity: 1;
+  width: 98%;
+  height: 100%;
+  top: 2px;
+}
+
+.saboneteveg2 {
+  z-index: 0;
+  opacity: 0;
+  width: 98%;
+  height: 110%;
+  top: -5px;
+}
+
+.protetorsolar1 {
+  z-index: 1;
+  opacity: 1;
+  width: 98%;
+  height: 100%;
+  top: 2px;
+}
+
+.protetorsolar2 {
+  z-index: 0;
+  opacity: 0;
+  width: 98%;
+  height: 110%;
+  top: -5px;
+}
+
+.balsamo1 {
+  z-index: 1;
+  opacity: 1;
+  width: 98%;
+  height: 100%;
+  top: 2px;
+}
+
+.balsamo2 {
+  z-index: 0;
+  opacity: 0;
+  width: 98%;
+  height: 110%;
+  top: 10px;
+}
+
+.purificador1{
+  z-index: 1;
+  opacity: 1;
+  width: 110%;
+  height: 120%;
+}
+
+.purificador2{
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+  /* Estilização dos títulos e seções */
+}
+
+  .category-section h2 {
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.lavalouca1{
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  height: 120%;
+}
+
+.category-section h3 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.lavalouca2{
+  z-index: 0;
+  opacity: 0;
+  width: 110%;
+  height: 110%;
+}
+
+.cortinatermica1{
+  z-index: 1;
+  opacity: 1;
+  width: 95%;
+  height: 93%;
+  top: 15px;
+}
+
+.cortinatermica2 {
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 120%;
+}
+
+.copostanley1{
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  height: 105%;
+}
+
+.copostanley2{
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+}
+
+.carregadorsol1{
+  z-index: 1;
+  opacity: 1;
+  width: 100%;
+  height: 105%;
+}
+
+.carregadorsol2{
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+}
+
+.foneouvido1{
+  z-index: 1;
+  opacity: 1;
+  width: 90%;
+  height: 105%;
+}
+
+.foneouvido2{
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+}
+
+.lampadaled1{
+  z-index: 1;
+  opacity: 1;
+  width: 90%;
+  height: 105%;
+}
+
+.lampadaled2{
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+}
+
+.caixasom1{
+  z-index: 1;
+  opacity: 1;
+  width: 90%;
+  height: 105%;
+}
+
+.caixasom2{
+  z-index: 0;
+  opacity: 0;
+  width: 100%;
+  height: 110%;
+}
+
+
+.container-produtos {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.square {
+  border: 1px solid #000;
+  background-color: transparent;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  border-radius: 15px;
+  transition: transform 0.6s cubic-bezier(0.42, 0, 0.58, 1);
+  overflow: hidden;
+  position: relative;
+}
+
+.square:hover {
+  transform: scale(1.1);
+}
+
+.square img {
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.5s ease;
+  border-radius: 15px;
+  margin-bottom: 15%;
+  position: absolute;
+  transform: scale(1.1);
+}
+
+.square:hover img {
+  transform: scale(1.05);
+  top: -35px;
+}
+
+.square:hover .img-primaria {
+  opacity: 0;
+}
+
+.square:hover .img-secundaria {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.img-primaria {
+  z-index: 1;
+  opacity: 1;
+  top: 8px;
+  width: 120%;
+  height: 160%;
+}
+
+.img-secundaria {
+  z-index: 0;
+  opacity: 0;
+  top: 15px;
+  width: 120%;
+  height: 160%;
+}
+
+.square {
+  margin-bottom: 15px;
+}
+
+.square:hover .ecobag-primaria {
+  opacity: 0; /* Torna a imagem primária invisível no hover */
+}
+
+.square:hover .ecobag-secundaria {
+  opacity: 1; /* Torna a imagem secundária visível no hover */
+}
+
+.square:hover .tenis-primario {
+  opacity: 0;
+}
+
+.square:hover .tenis-secundario {
+  opacity: 1;
+}
+
+.square:hover .calca_primaria {
+  opacity: 0;
+}
+
+.square:hover .calca_secundaria {
+  opacity: 1;
+  top: -20px;
+}
+
+.square:hover .shampoosolido1{
+  opacity: 0;
+}
+
+.square:hover .shampoosolido2 {
+  opacity: 1;
+  top: -20px;
+}
+
+.square:hover .saboneteveg1{
+  opacity: 0;
+}
+
+.square:hover .saboneteveg2 {
+  opacity: 1;
+  top: -20px;
+}
+
+.square:hover .protetorsolar1{
+  opacity: 0;
+}
+
+.square:hover .protetorsolar2 {
+  opacity: 1;
+  top: -20px;
+}
+
+.square:hover .balsamo1{
+  opacity: 0;
+}
+
+.square:hover .balsamo2{
+  opacity: 1;
+  top: 10px;
+}
+
+.square:hover .purificador1{
+  opacity: 0;
+}
+
+.square:hover .purificador2{
+  opacity: 1;
+}
+
+.square:hover .lavalouca1{
+  opacity: 0;
+}
+
+.square:hover .lavalouca2{
+  opacity: 1;
+}
+
+.square:hover .cortinatermica1{
+  opacity: 0;
+}
+
+.square:hover .cortinatermica2{
+  opacity: 1;
+  top: 10px;
+}
+
+.square:hover .copostanley1{
+  opacity: 0;
+}
+
+.square:hover .copostanley2{
+  opacity: 1;
+}
+
+.square:hover .carregadorsol1{
+  opacity: 0;
+}
+
+.square:hover .carregadorsol2{
+  opacity: 1;
+}
+
+.square:hover .foneouvido1{
+  opacity: 0;
+}
+
+.square:hover .foneouvido2{
+  opacity: 1;
+}
+
+.square:hover .lampadaled1{
+  opacity: 0;
+}
+
+.square:hover .lampadaled2{
+  opacity: 1;
+}
+
+.square:hover .caixasom1{
+  opacity: 0;
+}
+
+.square:hover .caixasom2{
+  opacity: 1;
+}
+
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid #333;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #660128;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+      margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .product-row {
+      margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .square {
+      height: 300px;
+  }
+  .product-row {
+      margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .square {
+      height: 350px;
+  }
 }
