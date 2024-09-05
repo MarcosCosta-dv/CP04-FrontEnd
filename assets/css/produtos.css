@@ -6,6 +6,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.product-link{
+    text-decoration: none;
+}
+
 .custom-navbar { /*CSS DO BOOTSTRAP*/
     background-color: #025939;
     padding: 0.5% 0;
@@ -123,9 +127,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+
+
 .product-card h3 {
     font-size: 18px;
-    color: #660128;
+    color: #1b4b00;
 }
 
 .product-card p {
@@ -641,7 +647,7 @@ button:hover {
 }
 
 .product-card button {
-    background-color: #660128;
+    background-color: #03A63C;
     color: #fff;
     padding: 8px 12px;
     border: none;
@@ -650,7 +656,7 @@ button:hover {
 }
 
 .product-card button:hover {
-    background-color: #880140;
+    background-color: #04D939;
 }
 
 

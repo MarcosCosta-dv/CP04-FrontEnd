@@ -1,5 +1,8 @@
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     padding: 20px;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 .product-images img {
@@ -27,6 +30,7 @@ body {
 
 
 .custom-navbar { /*CSS DO BOOTSTRAP*/
+    font-family: 'Poppins', sans-serif;
     background-color: #025939;
     padding: 0.5% 0;
     position: fixed;
@@ -67,6 +71,7 @@ body {
   }
   
   .navbar-menu li a {
+    font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -115,6 +120,14 @@ body {
     font-size: 2rem;
   }
 
+ .voltar-btn{
+    color: #707070;
+    font-size: 150%;
+    padding-bottom: 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+ }
+  
   /*----FOOTER----*/
 
   footer{
