@@ -13,7 +13,7 @@ body {
     width: 100%;
     top: 0;
     z-index: 1000;
-    height: 90px; /* Define a altura fixa da barra de navegação */
+    height: 90px;
   }
   
   .navbar-container {
@@ -21,7 +21,7 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Centraliza verticalmente o conteúdo */
+    align-items: center; 
     margin-top: -2%;
   }
   
@@ -134,7 +134,7 @@ h2 {
 }
 
 .ecobag-primaria {
-    z-index: 1; /* Altere o z-index para 1, para garantir que a imagem primária esteja visível no estado normal */
+    z-index: 1;
     opacity: 1;
     width: 110%;
     height: 120%;
@@ -435,11 +435,11 @@ h2 {
 }
 
 .square:hover .ecobag-primaria {
-    opacity: 0; /* Torna a imagem primária invisível no hover */
+    opacity: 0;
 }
 
 .square:hover .ecobag-secundaria {
-    opacity: 1; /* Torna a imagem secundária visível no hover */
+    opacity: 1;
 }
 
 .square:hover .tenis-primario {
