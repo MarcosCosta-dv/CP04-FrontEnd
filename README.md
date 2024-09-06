@@ -14,7 +14,7 @@
 ## Estrutura do Projeto
 ### A estrutura do projeto está organizada da seguinte forma:
 CP04-FrontEnd/
-│
+```│
 ├── assets/
 │   ├── css/
 │   │   ├── mediaQ/                       # Estilos de Media Queries
@@ -46,6 +46,7 @@ CP04-FrontEnd/
 ├── index.html                             # Página inicial do site
 ├── LICENSE                                # Arquivo de licença do projeto
 └── README.md                              # Este arquivo
+```
 
 ## Funcionalidades
 - Navegação: Menu de navegação responsivo com links para as principais páginas do site.
