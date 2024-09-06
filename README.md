@@ -13,39 +13,27 @@
 
 ## Estrutura do Projeto
 ### A estrutura do projeto está organizada da seguinte forma:
-CP04-FrontEnd/
 ```│
+CP04-FrontEnd/
 ├── assets/
 │   ├── css/
-│   │   ├── mediaQ/                       # Estilos de Media Queries
-│   │   │   ├── mediaQprodutos.css
-│   │   │   ├── mediaqueri.css
-│   │   ├── contato.css                    # Estilos da página de contato
-│   │   ├── contato2.css                   # Estilos adicionais da página de contato 2
-│   │   ├── product-html.css               # Estilos da página de produto
-│   │   ├── produtos.css                   # Estilos da página de produtos
-│   │   └── styles.css                     # Estilos gerais do site
-│   │
+│   │   ├── contato.css          # Estilos da página de contato
+│   │   ├── product-html.css     # Estilos da página de produto
+│   │   ├── produtos.css         # Estilos da página de produtos
+│   │   ├── styles.css           # Estilos gerais do site
 │   ├── html/
-│   │   ├── product-html/                  # HTML de produtos
-│   │   └── productModel/                  # Modelo de visualização de produtos
-│   │       ├── productViewModel.html      # Modelo específico para exibição de produtos
-│   │       ├── contato.html               # Página de contato
-│   │       ├── contato2.html              # Página de contato 2
-│   │       ├── produtosDEF.html           # Página de produtos com detalhamento
-│   │       └── produtosPRJ.html           # Página principal de produtos
-│   │
-│   ├── images/                            # Imagens do site
-│   │   ├── ...                            # (Imagens organizadas em subpastas)
-│   │
-│   ├── js/                                # Arquivos JavaScript
-│   │   ├── index.js                       # Script principal para interações
-│   │   └── produtos.js                    # Script específico para a página de produtos
-│
-├── .gitattributes                         # Configurações de atributos do Git
-├── index.html                             # Página inicial do site
-├── LICENSE                                # Arquivo de licença do projeto
-└── README.md                              # Este arquivo
+│   │   ├── product-html/        # Pasta para HTML de produtos
+│   │   ├── productModel/        # Pasta para modelos de produtos
+│   │   ├── contato.html         # Página de contato
+│   │   ├── produtosDEF.html     # Página de produtos detalhados
+│   ├── images/                  # Pasta de imagens
+│   ├── js/
+│   │   ├── index.js             # Script principal para interações
+│   │   ├── produtos.js          # Script específico para a página de produtos
+├── .gitattributes               # Configurações de atributos do Git
+├── LICENSE                      # Arquivo de licença do projeto
+├── README.md                    # Arquivo de descrição do projeto
+├── index.html                   # Página inicial do site
 ```
 
 ## Funcionalidades
