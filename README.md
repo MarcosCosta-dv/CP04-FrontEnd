@@ -14,7 +14,7 @@ Ricardo Cerazi Di Tilia
 - RM: 555155
 
 ## Descrição
-### Este é o projeto EcoTrend, uma loja online voltada para a venda de produtos 100% naturais e sustentáveis. O site apresenta um layout responsivo com navegação intuitiva, páginas de ###produtos detalhadas e formulários de contato. Este projeto foi desenvolvido utilizando HTML, CSS, e JavaScript, além de Bootstrap para estilização e responsividade.
+  Este é o projeto EcoTrend, uma loja online voltada para a venda de produtos 100% naturais e sustentáveis. O site apresenta um layout responsivo com navegação intuitiva, páginas de ###produtos detalhadas e formulários de contato. Este projeto foi desenvolvido utilizando HTML, CSS, e JavaScript, além de Bootstrap para estilização e responsividade.
 
 ## Estrutura do Projeto
 ### A estrutura do projeto está organizada da seguinte forma:
