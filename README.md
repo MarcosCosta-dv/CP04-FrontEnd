@@ -2,16 +2,11 @@
 ## Professor Lucas Silva de Sousa
 ## 1ESA
 
-Caio Felipe de Lima Bezerra
-- RM:556197
-Carlos Eduardo dos Santos Ribeiro Filho
-- RM:556785
-Lucas Derenze Simidu
-- RM:555931
-Marcos Vinícius da Silva Costa
-- RM:555490
-Ricardo Cerazi Di Tilia
-- RM: 555155
+- Caio Felipe de Lima Bezerra | RM:556197
+- Carlos Eduardo dos Santos Ribeiro Filho | RM:556785
+- Lucas Derenze Simidu | RM:555931
+- Marcos Vinícius da Silva Costa| RM:555490
+- Ricardo Cerazi Di Tilia | RM: 555155
 
 ## Descrição
   Este é o projeto EcoTrend, uma loja online voltada para a venda de produtos 100% naturais e sustentáveis. O site apresenta um layout responsivo com navegação intuitiva, páginas de ###produtos detalhadas e formulários de contato. Este projeto foi desenvolvido utilizando HTML, CSS, e JavaScript, além de Bootstrap para estilização e responsividade.
@@ -64,4 +59,4 @@ CP04-FrontEnd/
 - CSS: Estilização e layout do site, incluindo Media Queries para responsividade.
 - JavaScript: Funcionalidades dinâmicas e interatividade.
 - Bootstrap: Estilização adicional e componentes responsivos pré-construídos.
--Google Fonts: Tipografia customizada utilizando a fonte Poppins.
+- Google Fonts: Tipografia customizada utilizando a fonte Poppins.
