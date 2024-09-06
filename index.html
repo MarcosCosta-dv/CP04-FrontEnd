@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     
     <link rel="icon" href="assets/images/icons/ecotrendIcon.png" type="image/png">
-    
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -22,12 +22,13 @@
               <img src="assets/images/logo/EcoTrend__2_-removebg-preview.png" alt="Logo" class="navbar-img">
           </a>
           <ul class="navbar-menu">
-              <li><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="assets/html/produtosDEF.html">Loja</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
-              <!--<li><a href="#">Contact</a><img class="shop-logo" src="assets/images/icons/iconshop.png" alt="shop"></li>-->
+              <li><a href="assets/html/contato2.html">Contato</a></li>
           </ul>
+          <a href="#" class="">
+            <img class="shop-logo" src="assets/images/icons/iconshop.png" alt="shop">
+         </a>
       </div>
     </nav>
     <!--<div class="header__title">
@@ -37,50 +38,55 @@
     </div>-->
   </header>
 
-  <main>
-    <!-- Carousel DO BOOTSTRAP-->
-    <div class="d-flex justify-content-center">
-      <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  <main class="main-product">
+    <section class="main-section">
+      <img src="assets/images/wallpaper/wall1.jpg" class="background-image" alt="Background" />
+      <!-- Carousel DO BOOTSTRAP-->
+      <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators" class="carousel slide custom-carousel" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/promo/ecotrendpromo3.png" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo4.png" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo5.png" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo6.png" class="d-block w-100" alt="Slide 4">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/promo/ecotrendpromo7.png" class="d-block w-100" alt="Slide 5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/promo/ecotrendpromo3.png" class="d-block w-100" alt="Slide 1">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/promo/ecotrendpromo4.png" class="d-block w-100" alt="Slide 2">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/promo/ecotrendpromo5.png" class="d-block w-100" alt="Slide 3">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/promo/ecotrendpromo6.png" class="d-block w-100" alt="Slide 4">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/images/promo/ecotrendpromo7.png" class="d-block w-100" alt="Slide 5">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-  
-  
+    </section>
+    
   <div class="container-produtos">
+    <div class="container-produtos-title">
+      <h1>Veja alguns de nossos produtos!</h1>
+      <h3>Todos 100% naturais e sustentáveis ;)</h3>
+    </div>
         <!-- depois da uma olhada nos produtos se você quer mudar algum, coloquei 
             esses so pra ter algo por enquanto -->
-        <h2>Roupas e Acessórios Sustentáveis</h2>
         <div class="row product-row">
             <div class="col-6 col-md-3">
                 <div class="square">
@@ -109,38 +115,43 @@
         </div>
 
         <!-- Linha 2 -->
-        <h2>Produtos de Beleza e Cuidados Pessoais Naturais:</h2>
+
         <div class="row product-row">
             <div class="col-6 col-md-3">
                 <div class="square">
-                    <img src="../images/produtos/shampoosolido1.png" alt="shampoosolido1" class="shampoosolido1">
-                    <img src="../images/produtos/shampoosolido2.png" alt="shampoosolido2" class="shampoosolido2">
+                    <img src="assets/images/produtos/shampoosolido1.png" alt="shampoosolido1" class="shampoosolido1">
+                    <img src="assets/images/produtos/shampoosolido2.png" alt="shampoosolido2" class="shampoosolido2">
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="square">
-                    <img src="../images/produtos/saboneteveg1.jpg" alt="saboneteveg1" class="saboneteveg1">
-                    <img src="../images/produtos/saboneteveg2.jpg" alt="saboneteveg2" class="saboneteveg2">
+                    <img src="assets/images/produtos/saboneteveg1.jpg" alt="saboneteveg1" class="saboneteveg1">
+                    <img src="assets/images/produtos/saboneteveg2.jpg" alt="saboneteveg2" class="saboneteveg2">
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="square">
-                    <img src="../images/produtos/protetorsolar1.jpg" alt="protetorsolar1" class="protetorsolar1">
-                    <img src="../images/produtos/protetorsolar2.jpg" alt="protetorsolar2" class="protetorsolar2">
+                    <img src="assets/images/produtos/protetorsolar1.jpg" alt="protetorsolar1" class="protetorsolar1">
+                    <img src="assets/images/produtos/protetorsolar2.jpg" alt="protetorsolar2" class="protetorsolar2">
                 </div>
             </div>
             <div class="col-6 col-md-3">
                 <div class="square">
-                    <img src="../images/produtos/balsamo1.jpg" alt="balsamo1" class="balsamo1">
-                    <img src="../images/produtos/balsamo2.jpg" alt="balsamo2" class="balsamo2">
+                    <img src="assets/images/produtos/balsamo1.jpg" alt="balsamo1" class="balsamo1">
+                    <img src="assets/images/produtos/balsamo2.jpg" alt="balsamo2" class="balsamo2">
                 </div>
             </div>
         </div>
 
         <!--BOTAO VER MAIS -> DIRECIONA PARA A PARTE DA LOJA -->
-
+        
+          <div class="h1-ver-mais">
+            <h1>Gostou? Deseja Ver Mais? Clique Aqui Abaixo</h1>
+          </div>
+          <div class="text-center mt-4">
+            <a href="assets/html/produtosDEF.html" class="btn btn-verde btn-custom">Ver Mais</a>
+          </div>
   </main>
-    
 
   <footer>
     <div class="footer-container">

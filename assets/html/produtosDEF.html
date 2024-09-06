@@ -21,46 +21,71 @@
                 <ul class="navbar-menu">
                     <li><a href="../../index.html">Home</a></li>
                     <li><a href="produtosDEF.html">Loja</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="../html/contato2.html">Contato</a></li>
                     <!--<li><a href="#">Contact</a><img class="shop-logo" src="assets/images/icons/iconshop.png" alt="shop"></li>-->
                 </ul>
             </div>
         </nav>
     </header>
     <div class="container">
-        <!-- Seção de Filtros Laterais -->
         <div class="row">
-            <!-- Coluna de Filtros -->
-            <div class="col-md-3">
-                <h4>Filtros</h4>
-                <div class="filter-group">
-                    <h5>Preço</h5>
-                    <input type="checkbox" id="preco1" name="preco1" value="0-50">
-                    <label for="preco1">R$ 0 - R$ 50</label><br>
-                    <input type="checkbox" id="preco2" name="preco2" value="51-100">
-                    <label for="preco2">R$ 51 - R$ 100</label><br>
-                    <input type="checkbox" id="preco3" name="preco3" value="101-200">
-                    <label for="preco3">R$ 101 - R$ 200</label><br>
-
-                    <h5>Tipo de Produto</h5>
-                    <input type="checkbox" id="roupas" name="roupas" value="roupas">
-                    <label for="roupas">Roupas</label><br>
-                    <input type="checkbox" id="acessorios" name="acessorios" value="acessorios">
-                    <label for="acessorios">Acessórios</label><br>
-                    <input type="checkbox" id="beleza" name="beleza" value="beleza">
-                    <label for="beleza">Beleza e Cuidados Pessoais</label><br>
-
-                    <h5>Marca</h5>
-                    <input type="checkbox" id="marca1" name="marca1" value="marca1">
-                    <label for="marca1">Marca 1</label><br>
-                    <input type="checkbox" id="marca2" name="marca2" value="marca2">
-                    <label for="marca2">Marca 2</label><br>
-                    <input type="checkbox" id="marca3" name="marca3" value="marca3">
-                    <label for="marca3">Marca 3</label><br>
+            <!-- Coluna de Filtros (esquerda) -->
+            <div class="col-md-3 order-md-first">
+                <div class="card p-3 shadow-sm">
+                    <h4 class="card-title">Filtros</h4>
+    
+                    <!-- Grupo de Filtros - Preço -->
+                    <div class="filter-group mb-3">
+                        <h5>Preço</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco1" name="preco1" value="0-50">
+                            <label class="form-check-label" for="preco1">R$ 0 - R$ 50</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco2" name="preco2" value="51-100">
+                            <label class="form-check-label" for="preco2">R$ 51 - R$ 100</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="preco3" name="preco3" value="101-200">
+                            <label class="form-check-label" for="preco3">R$ 101 - R$ 200</label>
+                        </div>
+                    </div>
+    
+                    <!-- Grupo de Filtros - Tipo de Produto -->
+                    <div class="filter-group mb-3">
+                        <h5>Tipo de Produto</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="roupas" name="roupas" value="roupas">
+                            <label class="form-check-label" for="roupas">Roupas</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="acessorios" name="acessorios" value="acessorios">
+                            <label class="form-check-label" for="acessorios">Acessórios</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="beleza" name="beleza" value="beleza">
+                            <label class="form-check-label" for="beleza">Beleza e Cuidados Pessoais</label>
+                        </div>
+                    </div>
+    
+                    <!-- Grupo de Filtros - Marca -->
+                    <div class="filter-group">
+                        <h5>Marca</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca1" name="marca1" value="marca1">
+                            <label class="form-check-label" for="marca1">Marca 1</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca2" name="marca2" value="marca2">
+                            <label class="form-check-label" for="marca2">Marca 2</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="marca3" name="marca3" value="marca3">
+                            <label class="form-check-label" for="marca3">Marca 3</label>
+                        </div>
+                    </div>
                 </div>
             </div>
-
             <!-- Coluna de Produtos -->
             <div class="col-md-9">
                 <h2 class="category-title">Roupas e Acessórios Sustentáveis</h2>
@@ -70,7 +95,7 @@
                         <div class="product-card">
                             <a href="product-html/product01.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/camiseta_algodao_frente.jpg" data-hover="../images/produtos/camiseta_algodao_tras.jpg" alt="Camiseta Algodão Orgânico">
-                                <h3>Camiseta Orgânica</h3>
+                                <h3>Camiseta Over.</h3>
                                 <p>R$ 59,90</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -81,7 +106,7 @@
                         <div class="product-card">
                             <a href="product-html/product02.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/ecobag1.jpg" data-hover="../images/produtos/ecobag2.png" alt="EcoBag Sustentável">
-                                <h3>EcoBag Sustentável</h3>
+                                <h3>EcoBag</h3>
                                 <p>R$ 25,00</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -91,7 +116,7 @@
                         <div class="product-card">
                             <a href="product-html/product03.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/tenis_nike1.jpg" data-hover="../images/produtos/tenis_nike2.jpg" alt="Tênis Sustentável">
-                                <h3>Tênis Sustentável</h3>
+                                <h3>Tênis Org.</h3>
                                 <p>R$ 199,90</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -101,7 +126,7 @@
                         <div class="product-card">
                             <a href="product-html/product04.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/calca_primaria.jpg" data-hover="../images/produtos/calca_secundaria.jpg" alt="Calça Orgânica">
-                                <h3>Calça Orgânica</h3>
+                                <h3>Calça Org.</h3>
                                 <p>R$ 89,90</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -116,7 +141,7 @@
                         <div class="product-card">
                             <a href="product-html/product05.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/shampoosolido1.png" data-hover="../images/produtos/shampoosolido2.png" alt="Shampoo Sólido Natural">
-                                <h3>Shampoo Natural</h3>
+                                <h3>Shampoo Nat.</h3>
                                 <p>R$ 34,90</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -126,7 +151,7 @@
                         <div class="product-card">
                             <a href="product-html/product06.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/saboneteveg1.jpg" data-hover="../images/produtos/saboneteveg2.jpg" alt="Sabonete Vegano">
-                                <h3>Sabonete Vegano</h3>
+                                <h3>Sabonete Veg.</h3>
                                 <p>R$ 12,00</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -136,7 +161,7 @@
                         <div class="product-card">
                             <a href="product-html/product07.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/protetorsolar1.jpg" data-hover="../images/produtos/protetorsolar2.jpg" alt="Protetor Solar Natural">
-                                <h3>Protetor Solar Nat.</h3>
+                                <h3>Protetor Solar</h3>
                                 <p>R$ 49,90</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>
@@ -146,7 +171,7 @@
                         <div class="product-card">
                             <a href="product-html/product08.html" class="product-link">
                                 <img class="product-image" src="../images/produtos/balsamo1.jpg" data-hover="../images/produtos/balsamo2.jpg" alt="Bálsamo Hidratante Natural">
-                                <h3>Hidratante Natural</h3>
+                                <h3>Hidratante Nat.</h3>
                                 <p>R$ 22,50</p>
                             </a>
                             <button>Adicionar ao Carrinho</button>

@@ -34,8 +34,12 @@ body {
   width: auto;
 }
 
+
 .shop-logo{
-  height: 5%;
+  margin-top: 0%;
+  margin-left: -50%;
+  height: 50%;
+  width: 20%;
 }
 
 .navbar-menu {
@@ -62,6 +66,13 @@ body {
 .navbar-menu li a:hover {
   background-color: #006842;
   border-radius: 5px;
+}
+
+.h1-ver-mais{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #ffffff;
 }
 
 
@@ -99,7 +110,47 @@ body {
   font-size: 2rem;
 }
 
+.main-section {
+  position: relative;
+  padding: 20px 0;
+  overflow: hidden; 
+}
 
+.main-product{
+  background-color: #242424;
+}
+
+.container-produtos-title{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  text-align: center;
+}
+
+.container-produtos-title h1{
+  font-size: 80px;
+}
+
+.container-produtos-title h3{
+  font-size: 20px;
+}
+
+
+.background-image {
+  filter: brightness(30%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.custom-carousel {
+  position: relative;
+  z-index: 2;
+}
 
 .carousel-control-next:hover{
   background-color: transparent;
@@ -696,6 +747,26 @@ button {
 button:hover {
   background-color: #660128;
   color: #fff;
+}
+
+.btn-verde {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+  color: white !important;
+  margin-bottom: 50px;
+}
+
+.btn-verde:hover {
+  background-color: #218838 !important;
+  border-color: #1e7e34 !important;
+}
+
+.btn-custom {
+  font-size: 20px; /* Aumenta o tamanho do texto */
+  padding: 15px 30px; /* Aumenta o espaço interno do botão */
+  width: 200px; /* Define uma largura maior para o botão */
+  text-align: center; /* Alinha o texto ao centro horizontalmente */
+  line-height: 1.5; /* Ajusta o espaçamento vertical */
 }
 
 @media (max-width: 768px) {
