@@ -1,3 +1,4 @@
+
 .menu-icon {
   display: none;
   cursor: pointer;
@@ -87,6 +88,7 @@ body {
   height: 90px; 
 }
 
+
 .navbar-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -122,12 +124,12 @@ body {
 }
 
 .navbar-menu li a {
+  font-family: 'Poppins', sans-serif;
   color: white;
   text-decoration: none;
   font-size: 18px;
   padding: 5px 10px;
   transition: background-color 0.3s ease;
-  
 }
 
 .navbar-menu li a:hover {
@@ -144,10 +146,11 @@ body {
 
 
 @media screen and (max-width: 768px) {
-  .navbar-menu {
-      flex-direction: column;
-      align-items: center;
-  }
+  .contact-container {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+}
 }
 
 .custom-header { /*CSS DO BOOTSTRAP*/
@@ -157,7 +160,7 @@ body {
   align-items: center;
   justify-content: center;
   /*height: 100vh; altera a altura entre a header o resto da main */
-  padding-top: 0.5%;
+  padding-top: 5.5%;
 }
 
 .header__title {
@@ -176,6 +179,7 @@ body {
 .header__title h2.third {
   font-size: 2rem;
 }
+
 
 .main-section {
   position: relative;
